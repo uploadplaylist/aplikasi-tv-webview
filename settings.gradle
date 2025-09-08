@@ -5,7 +5,8 @@ pluginManagement {
         gradlePluginPortal()
     }
     plugins {
-        id 'com.android.application' version '7.4.2' apply false
+        // Kita perbarui versi plugin Android agar sesuai dengan Gradle 9.0.0
+        id 'com.android.application' version '8.4.1' apply false
     }
 }
 dependencyResolutionManagement {
